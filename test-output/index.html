@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcases.RegressionSuite" class="method navigator-link" hash-for-method="valid_login_check">valid_login_check</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcases.RegressionSuite" class="method navigator-link" hash-for-method="valid_login_scenario_check">valid_login_scenario_check</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Testcases.SanityLogin" class="method navigator-link" hash-for-method="valid_login_scenario_check">valid_login_scenario_check</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -127,23 +122,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Testcases.RegressionSuite</span>
+              <span class="class-name">Testcases.SanityLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="valid_login_check">
-                  </a> <!-- valid_login_check -->
-                  <span class="method-name">valid_login_check</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="valid_login_scenario_check">
                   </a> <!-- valid_login_scenario_check -->
                   <span class="method-name">valid_login_scenario_check</span>
-                  <em>
-(Full E2E Checkout Flow)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -158,14 +144,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils_Ekart.listners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Testcases.RegressionSuite&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;valid_login_check&quot;/&gt;
-          &lt;include name=&quot;valid_login_scenario_check&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- Testcases.RegressionSuite --&gt;
+      &lt;class name=&quot;Testcases.SanityLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -205,20 +189,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'valid_login_scenario_check')
-data.setCell(0, 2, 'Testcases.RegressionSuite')
-data.setCell(0, 3, 20004);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'valid_login_check')
-data.setCell(1, 2, 'Testcases.RegressionSuite')
-data.setCell(1, 3, 1838);
+data.setCell(0, 2, 'Testcases.SanityLogin')
+data.setCell(0, 3, 652);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 652 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -244,30 +224,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Testcases.RegressionSuite</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Testcases.SanityLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">valid_login_scenario_check</span>
-                <span class="method-start">5673 ms</span>
+                <span class="method-start">23336 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">25678 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">25900 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">valid_login_check</span>
-                <span class="method-start">34619 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">36461 ms</span>
+                <span class="method-start">23993 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

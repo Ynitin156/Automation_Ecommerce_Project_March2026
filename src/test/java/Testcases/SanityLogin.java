@@ -12,7 +12,7 @@ import Pages_Ekart.PaymentFlow;
 
 
 
-public class LoginTest extends Base
+public class SanityLogin extends Base
 {
  
 	   @Test(priority = 1)
@@ -26,27 +26,8 @@ public class LoginTest extends Base
 	 	  GeneralUtilsSS.captureScreenshot(driver, "AfterLogin");
 	 	  
 	 	  
-	 	  //add_to_cart
-	 	  
-//	 	  Add_to_cart atc = new Add_to_cart(driver);
-//	 	  
-//	 	  atc.elementToBeClickable();
-//	 	  atc.continue_shopping();
-//	 	  atc.add_to_cart();
-//	 	  atc.Proceed_to_checkout();
-//	 	  atc.Placed_order();
-	 	  
-	 	  //payment_flow
-	 	  
-//	 	  PaymentFlow pf = new PaymentFlow(driver);
-//	 	  pf.name_of_card();
-//	 	  pf.card_number();
-//	 	  pf.card_cvv();
-//	 	  pf.card_exp_month();
-//	 	  pf.card_exp_year();
-//	 	  pf.pay_and_confirm_order();
-//	 	  
-//	 	  GeneralUtilsSS.captureScreenshot(driver, "AfterOrderplaced");
-//	 	  
+	 
    }
+	   
+	   
 }

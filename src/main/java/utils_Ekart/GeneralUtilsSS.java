@@ -9,6 +9,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 public class GeneralUtilsSS 
 {
 	
@@ -27,6 +29,7 @@ public class GeneralUtilsSS
         catch (IOException e) 
         {
             e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 }
