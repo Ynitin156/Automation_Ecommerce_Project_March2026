@@ -17,6 +17,13 @@ public class GeneralUtilsSS
 	public static void captureScreenshot(WebDriver driver, String screenshotName) 
 	{
 
+		
+		 if (driver == null) 
+		 {
+	            System.out.println("Driver is NULL. Screenshot cannot be captured.");
+	            return;
+	        }
+		
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
 

@@ -26,15 +26,18 @@ public class Base
 		  String browser = conR.getBrowser();
 		  String baseurl = conR.getBaseUrl();
 		  
-		  System.out.println("DEBUG: The URL found is: " + baseurl);
+		  System.out.println("DEBUG Browser: " + browser);
+	        System.out.println("DEBUG URL: " + baseurl);
 		  
 		  if(browser.equalsIgnoreCase("chrome"))
 		  {
 			 driver = new ChromeDriver();
 		  }
 		  
-		  driver.manage().window().maximize();
-		  driver.get(baseurl);
+		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	        driver.manage().window().maximize();
+	        
+	        driver.get(baseurl);
 	   
 	  }
 	  

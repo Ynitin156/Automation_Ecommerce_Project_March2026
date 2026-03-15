@@ -7,16 +7,18 @@ public class Reports
 {
 	public static ExtentReports extent;
 
-    public static ExtentReports getReportInstance() {
+     public static ExtentReports getReportObject() {
 
-        String path = System.getProperty("user.dir") + "/Automation_screenshot/ExtentReport.html";
+        String path = System.getProperty("user.dir") + "/reports/index.html";
 
         ExtentSparkReporter reporter = new ExtentSparkReporter(path);
-        reporter.config().setReportName("Ekart Automation Results");
-        reporter.config().setDocumentTitle("Test Results");
+        reporter.config().setReportName("Automation Test Results");
+        reporter.config().setDocumentTitle("Ekart Automation Report");
 
         extent = new ExtentReports();
         extent.attachReporter(reporter);
+
+        extent.setSystemInfo("Tester", "Nitin");
 
         return extent;
     }
