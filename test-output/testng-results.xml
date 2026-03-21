@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-15T13:08:30 IST" name="Default suite" finished-at="2026-03-15T13:08:37 IST" duration-ms="7345">
+  <suite started-at="2026-03-21T11:20:08 IST" name="Default suite" finished-at="2026-03-21T11:20:32 IST" duration-ms="24316">
     <groups>
     </groups>
-    <test started-at="2026-03-15T13:08:30 IST" name="Default test" finished-at="2026-03-15T13:08:37 IST" duration-ms="7345">
+    <test started-at="2026-03-21T11:20:08 IST" name="Default test" finished-at="2026-03-21T11:20:32 IST" duration-ms="24316">
       <class name="Testcases.SanityLogin">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:Testcases.SanityLogin@7e057f43]" started-at="2026-03-15T13:08:30 IST" name="setupReport" finished-at="2026-03-15T13:08:30 IST" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:Testcases.SanityLogin@7e057f43]" started-at="2026-03-21T11:20:08 IST" name="setupReport" finished-at="2026-03-21T11:20:08 IST" duration-ms="353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.SanityLogin@7e057f43]" started-at="2026-03-15T13:08:30 IST" name="setup" finished-at="2026-03-15T13:08:35 IST" duration-ms="5378" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.SanityLogin@7e057f43]" started-at="2026-03-21T11:20:09 IST" name="setup" finished-at="2026-03-21T11:20:31 IST" duration-ms="22471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="valid_login_scenario_check()[pri:0, instance:Testcases.SanityLogin@7e057f43]" started-at="2026-03-15T13:08:35 IST" name="valid_login_scenario_check" finished-at="2026-03-15T13:08:37 IST" duration-ms="1143" status="PASS">
+        <test-method signature="valid_login_scenario_check()[pri:0, instance:Testcases.SanityLogin@7e057f43]" started-at="2026-03-21T11:20:31 IST" name="valid_login_scenario_check" finished-at="2026-03-21T11:20:32 IST" duration-ms="914" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valid_login_scenario_check -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.SanityLogin@7e057f43]" started-at="2026-03-15T13:08:37 IST" name="teardown" finished-at="2026-03-15T13:08:37 IST" duration-ms="231" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.SanityLogin@7e057f43]" started-at="2026-03-21T11:20:32 IST" name="teardown" finished-at="2026-03-21T11:20:32 IST" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:Testcases.SanityLogin@7e057f43]" started-at="2026-03-15T13:08:37 IST" name="tearDownReport" finished-at="2026-03-15T13:08:37 IST" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:Testcases.SanityLogin@7e057f43]" started-at="2026-03-21T11:20:32 IST" name="tearDownReport" finished-at="2026-03-21T11:20:32 IST" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
