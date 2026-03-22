@@ -4,7 +4,7 @@
 <suite name="Suite">
 
 <listeners>
-        <listener class-name="utils_Ekart.listners" />
+        <listener class-name="utils_Ekart.Listners" />
     </listeners>
 
   <test thread-count="5" name="Test">
