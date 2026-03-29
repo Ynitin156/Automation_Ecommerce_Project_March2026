@@ -2,32 +2,35 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-22T11:18:25 IST" name="Suite" finished-at="2026-03-22T11:18:49 IST" duration-ms="23542">
+  <suite started-at="2026-03-29T12:16:41 IST" name="Default suite" finished-at="2026-03-29T12:20:30 IST" duration-ms="228814">
     <groups>
+      <group name="regression">
+        <method signature="RegressionTestingEndtoEndFlow.valid_login_check()[pri:1, instance:Testcases.RegressionTestingEndtoEndFlow@3b0fe47a]" name="valid_login_check" class="Testcases.RegressionTestingEndtoEndFlow"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2026-03-22T11:18:25 IST" name="Test" finished-at="2026-03-22T11:18:49 IST" duration-ms="23542">
-      <class name="Testcases.SanityLogin">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:Testcases.SanityLogin@202b0582]" started-at="2026-03-22T11:18:25 IST" name="setupReport" finished-at="2026-03-22T11:18:25 IST" duration-ms="322" status="PASS">
+    <test started-at="2026-03-29T12:16:41 IST" name="Default test" finished-at="2026-03-29T12:20:30 IST" duration-ms="228814">
+      <class name="Testcases.RegressionTestingEndtoEndFlow">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:Testcases.RegressionTestingEndtoEndFlow@3b0fe47a]" started-at="2026-03-29T12:16:42 IST" name="setupReport" finished-at="2026-03-29T12:16:42 IST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.SanityLogin@202b0582]" started-at="2026-03-22T11:18:25 IST" name="setup" finished-at="2026-03-22T11:18:29 IST" duration-ms="3984" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.RegressionTestingEndtoEndFlow@3b0fe47a]" started-at="2026-03-29T12:16:42 IST" name="setup" finished-at="2026-03-29T12:17:01 IST" duration-ms="19298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="valid_login_scenario_check()[pri:0, instance:Testcases.SanityLogin@202b0582]" started-at="2026-03-22T11:18:29 IST" name="valid_login_scenario_check" finished-at="2026-03-22T11:18:48 IST" duration-ms="18628" status="PASS">
+        <test-method signature="valid_login_check()[pri:1, instance:Testcases.RegressionTestingEndtoEndFlow@3b0fe47a]" started-at="2026-03-29T12:17:01 IST" name="valid_login_check" finished-at="2026-03-29T12:20:29 IST" duration-ms="207495" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- valid_login_scenario_check -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.SanityLogin@202b0582]" started-at="2026-03-22T11:18:48 IST" name="teardown" finished-at="2026-03-22T11:18:48 IST" duration-ms="239" status="PASS">
+        </test-method> <!-- valid_login_check -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.RegressionTestingEndtoEndFlow@3b0fe47a]" started-at="2026-03-29T12:20:29 IST" name="teardown" finished-at="2026-03-29T12:20:29 IST" duration-ms="450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:Testcases.SanityLogin@202b0582]" started-at="2026-03-22T11:18:48 IST" name="tearDownReport" finished-at="2026-03-22T11:18:49 IST" duration-ms="346" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:Testcases.RegressionTestingEndtoEndFlow@3b0fe47a]" started-at="2026-03-29T12:20:29 IST" name="tearDownReport" finished-at="2026-03-29T12:20:30 IST" duration-ms="1253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
-      </class> <!-- Testcases.SanityLogin -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- Testcases.RegressionTestingEndtoEndFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

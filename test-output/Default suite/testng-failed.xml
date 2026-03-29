@@ -5,6 +5,8 @@
     <classes>
       <class name="Testcases.RegressionTestingEndtoEndFlow">
         <methods>
+          <include name="setupReport"/>
+          <include name="tearDownReport"/>
           <include name="teardown"/>
           <include name="setup"/>
           <include name="valid_login_check"/>

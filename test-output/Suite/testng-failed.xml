@@ -3,13 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Testcases.RegressionSuite">
+      <class name="Testcases.RegressionTestingEndtoEndFlow">
         <methods>
-          <include name="valid_login_scenario_check"/>
+          <include name="setupReport"/>
+          <include name="tearDownReport"/>
           <include name="teardown"/>
           <include name="setup"/>
+          <include name="valid_login_check"/>
         </methods>
-      </class> <!-- Testcases.RegressionSuite -->
+      </class> <!-- Testcases.RegressionTestingEndtoEndFlow -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
